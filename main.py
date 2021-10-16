@@ -1,5 +1,5 @@
 #Welcome to PAIA - Personal Artifical Intelligent Assitant
-from libraries import setProperty, setvoiceID,speak
+from libraries import listenuser, setProperty, setvoiceID,speak
 import libraries
 class User:
     def __init__(self,user):
@@ -11,7 +11,9 @@ class User:
 
         for i in range(2):
             setvoiceID(i)
- 
+    
+    def listen(self):
+        listenuser()
         
     def set_property(self,set):
         setProperty(set)
@@ -32,4 +34,5 @@ set=int(input())
 user.set_property(set)
 
 user.greet()
+user.listen()
 
