@@ -1,0 +1,8 @@
+Package    Version
+---------- -------
+comtypes   1.1.10
+pip        21.3
+pypiwin32  223
+pyttsx3    2.90
+pywin32    302
+setuptools 56.0.0
